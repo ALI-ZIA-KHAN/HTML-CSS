@@ -1,0 +1,41 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #000
+}
+.container{
+	display:flex;
+	position:absolute;
+	top:35%;
+	left:15%;
+	right:10px;
+	font-size:30px;
+	transform: translate(25%,25%)
+
+
+}
+.button{
+	color:white;
+	margin:5px;
+	padding: 20px;
+	position:relative;
+	width:150px;
+	color:#15f4ee;
+	font-family: poppins;
+	font-weight:200px;
+	border:5px solid #15f4ee;
+	border-radius: 10px;
+	text-transform: uppercase;
+	cursor:pointer;
+	transition:1.5s;
+}
+.button:hover{
+
+	box-shadow:0 5px 50px
+	           0 #15f4ee inset,
+	           0 5px 50px 0 #15f4ee;
+	           
+
+	text-shadow: 0 0 5px #15f4ee,
+	             0 0 5px #15f4ee;          
+}
